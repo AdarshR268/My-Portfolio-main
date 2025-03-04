@@ -1,0 +1,99 @@
+.App{
+    text-align: center;
+    background-color: rgb(233, 241, 250);;
+    color: black;
+}
+
+.navbar{
+    position: fixed;
+    right: 0;
+    display: flex;
+    background: rgb(221, 231, 252);
+    z-index: 2;
+    color: black;
+}
+
+.nav-items{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    width: 100vw;
+}
+
+.nav-list{
+    margin: 5px;
+}
+
+.nav-list:hover{
+    border-bottom: 3.5px solid #8A00C4; 
+    border-radius: 1px;
+    cursor: pointer;
+    color: #8A00C4;
+    transition: all 0.2s;
+}
+
+.active{
+    border-bottom: 3.5px solid #8A00C4; 
+    border-radius: 12px;
+    color: #8A00C4;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.menu-bar{
+    display: none;
+}
+
+/* For extra small devices -small phones*/
+@media only screen and (max-width: 600px) {
+    .navbar{
+        position: fixed;
+        right: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .menu-bar{
+        display: block;
+        cursor: pointer;
+        transition: 0.3s ease;
+        z-index: 2;
+    }
+    .nav-items{
+        display: none;
+    }
+    .mob-menu{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+        gap:  0.4rem;
+        margin: 25px 10px 5px 10px;
+        padding: 30px;
+        border: 2px solid rgb(221, 231, 252);
+        border-radius: 15px;
+        background-color: rgb(221, 231, 252);
+        z-index: 2;
+    }
+}
+
+/* For small devices -Large phones*/
+@media only screen and (min-width: 600px) {
+}
+
+/* For medium devices - Tablets*/
+@media only screen and (min-width: 768px) {
+}
+
+/* For Large screens - laptops/desktops */
+@media only screen and (min-width: 992px) {
+}
+
+/* For extra Large screens - large laptops/desktops */
+@media only screen and (min-width: 1200px) {
+}

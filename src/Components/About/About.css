@@ -1,0 +1,82 @@
+.About-Content{
+    margin: 2px;
+    padding: 2px;
+    min-height: fit-content;
+    width: 95%;
+}
+
+.About-Content h1{
+    margin-top: 50px;
+    text-align: center;
+    color: #8A00C4;
+    font-size: xx-large;
+}
+
+.MyIntro{
+    margin: 5px;
+    padding: 3px;
+    font-size: larger;
+    font-weight: 400;
+    text-align: center;
+}
+
+.expertises{
+    margin: 15px;
+    padding: 5px;
+    font-size: larger;
+    font-weight: 400;
+    text-align: start;
+}
+
+.expertises h3{
+    color: #8A00C4;
+    border-bottom: 2px solid black;
+    margin:5px;
+}
+
+.expertise-list li{
+    margin: 2px;
+    padding: 5px;
+}
+
+.expertise-list ul{
+    list-style-type: square;
+}
+
+.expertise-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.expertise-list > img{
+    max-width: 30%;
+    max-height: 30%;
+    border-radius: 15px;
+    margin: 35px;
+}
+
+/* For  small devices - phones*/
+@media only screen and (max-width: 768px) {
+    .About-Content{
+        width: 98%;
+    }
+    .About-Content h1{
+        margin: 5px;
+    }
+    .MyIntro,.expertise-list{
+        text-align: left;
+        font-size: medium;
+    }
+    .expertise-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .expertise-list > img{
+        max-width: 70%;
+        max-height: 50%;
+        border-radius: 15px;
+        margin: 25px;
+    }
+}

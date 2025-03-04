@@ -1,0 +1,108 @@
+.Projects-Content{
+    margin: 2px;
+    padding: 2px;
+    min-height: fit-content;
+    width: 95%;
+}
+
+.Projects-Content h1{
+    margin-top: 50px;
+    text-align: center;
+    color: #8A00C4;
+    font-size: xx-large;
+}
+
+.Credentials{
+    margin: 15px;
+    padding: 5px;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+}
+
+.Credentials > h4{
+    margin: 20px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.Credentials >p:hover{
+    font-size: larger;
+}
+
+.Project-Data{
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.Projects-Source{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    height: 350px;
+    width: 280px;
+    background: rgb(221, 231, 252);
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.Projects-Source:hover{
+    transform: translateY(-30px);
+    cursor: pointer;
+}
+
+.Projects-Source >p{
+    padding: 2px;
+    font-size: 25px;
+}
+
+.Projects-Source >img{
+    height: 150px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.Projects-Source >a{
+    display: block;
+    margin: 6px;
+    border: 3px inset black;
+    border-radius: 18px;
+    padding: 5px;
+    text-decoration: none;
+    background: black;
+    color: white;
+}
+.Projects-Source > a:hover{
+    background-color: rgb(63, 81, 30);
+}
+
+
+
+@media only screen and (max-width: 720px) {
+    .Projects-Content h1{
+        margin: 5px;
+    }
+    .Project-Data{
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.15rem;
+    }
+    .Projects-Source{
+        height: 410px;
+        width: 95%;
+    }
+    .Projects-Source:hover{
+        transform: translateX(20px);
+    }
+    .Projects-Source >img{
+        height: 200px;
+        width: 80%;
+    }
+}

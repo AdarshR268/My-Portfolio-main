@@ -1,0 +1,89 @@
+.Skills-Content{
+    margin: 2px;
+    padding: 2px;
+    min-height: fit-content;
+    width: 95%;
+}
+
+.Skills-Content h1{
+    margin-top: 50px;
+    text-align: center;
+    color: #8A00C4;
+    font-size: xx-large;
+}
+
+.Skills_Setup{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1px;
+    padding: 1px;
+}
+
+.Skill-level{
+    margin: 1px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+
+.Skill-level > img{
+    border: 1px solid rgb(25, 24, 24);
+    background: rgb(221, 231, 252);
+    padding: 5px;
+    border-radius: 15px;
+    height: 120px;
+    width: 95px;
+}
+
+.Skill-level >img:hover{
+    transform: skew(15deg,-15deg);
+    transition: 0.35s ease;
+    cursor: pointer;
+}
+
+.Skills-Sphere{
+    margin: 2px;
+}
+
+.tagcloud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagcloud--item{
+    color: #1F51FF;
+}
+
+.tagcloud--item:hover{
+    color: #1F51FF;
+    font-weight: 700;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+/* For extra small devices - small phones*/
+@media only screen and (max-width: 600px) {
+    .Skills-Sphere{
+        margin: 0;
+    }
+    .tagcloud{
+        width: 170px;
+        z-index: 1;
+    }
+    .Skills-Content h1{
+        margin: 5px;
+    }
+    .Skill-level{
+        gap: 0.5rem;
+        justify-content: center;
+    }
+    .Skill-level > img{
+        height: 90px;
+        width: 68px;
+    }
+}
