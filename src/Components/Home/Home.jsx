@@ -33,14 +33,14 @@ function Home() {
           <div className='Home_Icons'>
             <div className='connects'>
               <p>Connect with me on</p>
-              <a href="www.linkedin.com/in/adarsh--r--" target='_blank'><FontAwesomeIcon icon={faLinkedin} size="2xl" style={{color: "#29569e",}} /></a> 
+              <a href="https://www.linkedin.com/in/adarsh--r--/" target='_blank'><FontAwesomeIcon icon={faLinkedin} size="2xl" style={{color: "#29569e",}} /></a> 
               <a href="#Contact"><FontAwesomeIcon icon={faFileLines} size="2xl" style={{color: "#02a2a2",}} /></a>
               <a href="https://github.com/AdarshR268" target='_blank'><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#000000",}} /></a>
-              <a href="mailto:hari0709venkatesan@gmail.com" target='_blank'><FontAwesomeIcon icon={faEnvelope} size="2xl" /></a>
+              <a href="mailto:adarshofficial268@gmail.com" target='_blank'><FontAwesomeIcon icon={faEnvelope} size="2xl" /></a>
             </div>
             <div className='domains'>
               <p>Currently working on</p>
-              <img src={MERN_Image} alt='MERN'/>
+              <img src={MERN_Image} alt='Python Full Stack Developer'/>
             </div>
           </div>
           <a href="https://drive.google.com/" target='_self'>Download Resume</a>

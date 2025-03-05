@@ -26,8 +26,8 @@ function Skills() {
             "CSS3",
             "JAVASCRIPT",
             "REACT JS",
-            "NODE JS",
-            "EXPRESS JS",
+            "PYTHON",
+            "DJANGO",
             "MONGODB",
             "MYSQL",
             "MONGOOSE",
@@ -39,7 +39,7 @@ function Skills() {
             "RENDER",
             "NETLIFY",
             "BOOTSTRAP",
-            "MATERIALUI"
+            "RESTful API"
         ];
 
         const options ={
